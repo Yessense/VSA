@@ -97,9 +97,10 @@ class ItemMemory():
                  name: str = '',
                  dimension: int = 1000,
                  random_state: Optional[np.random.RandomState] = None,
-                 init_vectors: Optional[List[str]] = None,
+                 init_vectors: Optional[List[str]] = None, # init vector names f.e. shift, end
                  *args, **kwargs):
         super().__init__(*args, **kwargs)
+
 
         if random_state is None:
             random_state = np.random.RandomState(1)
