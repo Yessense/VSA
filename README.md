@@ -1,6 +1,6 @@
 # VSA
 
-Package for manipulating HD vector logic and operation
+Package for manipulating multidimensional normal HD vector logic and operation
 
 ## Package Installation
 
